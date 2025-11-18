@@ -1,13 +1,9 @@
 {
-  "parent": "block/cube",
+  "parent": "aliza_archeology:custom/dark_sealed_chest",
   "textures": {
-    "down": "aliza_archeology:block/texturebase",
-    "up": "aliza_archeology:block/texturebase",
-    "north": "aliza_archeology:block/texturebase",
-    "east": "aliza_archeology:block/texturebase",
-    "south": "aliza_archeology:block/texturebase",
-    "west": "aliza_archeology:block/texturebase",
-    "particle": "aliza_archeology:block/texturebase"
+    "all": "aliza_archeology:block/texturebase",
+    "particle": "aliza_archeology:block/texturebase",
+    "0": "aliza_archeology:block/texturebasedark"
   },
   "render_type": "solid"
 }

@@ -1,13 +1,9 @@
 {
-  "parent": "block/cube",
+  "parent": "aliza_archeology:custom/sealed_chest",
   "textures": {
-    "down": "aliza_archeology:block/sealed_texture_base",
-    "up": "aliza_archeology:block/sealed_texture_base",
-    "north": "aliza_archeology:block/sealed_texture_base",
-    "east": "aliza_archeology:block/sealed_texture_base",
-    "south": "aliza_archeology:block/sealed_texture_base",
-    "west": "aliza_archeology:block/sealed_texture_base",
-    "particle": "aliza_archeology:block/texturebase"
+    "all": "aliza_archeology:block/sealed_texture_base",
+    "particle": "aliza_archeology:block/texturebase",
+    "missing": "aliza_archeology:block/sealed_texture_base"
   },
   "render_type": "solid"
 }

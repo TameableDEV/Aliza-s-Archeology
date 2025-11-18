@@ -12,8 +12,8 @@
         "textureRight": "",
         "textureBack": "",
         "particleTexture": "",
-        "renderType": 0,
-        "customModelName": "Normal",
+        "renderType": 2,
+        "customModelName": "sealed_chest:default",
         "luminance": 0,
         "boundingBoxes": []
       },
@@ -25,8 +25,8 @@
         "textureRight": "",
         "textureBack": "",
         "particleTexture": "",
-        "renderType": 0,
-        "customModelName": "Normal",
+        "renderType": 2,
+        "customModelName": "dark_sealed_chest:default",
         "luminance": 0,
         "boundingBoxes": []
       },

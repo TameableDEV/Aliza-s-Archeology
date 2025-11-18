@@ -1096,6 +1096,41 @@
         ]
       },
       "path": "~/Sealed Chests"
+    },
+    {
+      "name": "SealedChestSwapTexture",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sealed_chest_swap_texture",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/procedures/SealedChestSwapTextureProcedure.java"
+        ]
+      },
+      "path": "~/Sealed Chests"
     }
   ],
   "variable_elements": [],

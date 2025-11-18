@@ -34,7 +34,7 @@
             7,
             2.5
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "east": {
           "uv": [
@@ -43,7 +43,7 @@
             7,
             5
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "south": {
           "uv": [
@@ -52,7 +52,7 @@
             7,
             7.5
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "west": {
           "uv": [
@@ -61,7 +61,7 @@
             3.5,
             9.5
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "up": {
           "uv": [
@@ -70,7 +70,7 @@
             0,
             0
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "down": {
           "uv": [
@@ -79,7 +79,7 @@
             0,
             7
           ],
-          "texture": "#0"
+          "texture": "#missing"
         }
       }
     },
@@ -111,7 +111,7 @@
             10.5,
             6.25
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "east": {
           "uv": [
@@ -120,7 +120,7 @@
             6,
             8.75
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "south": {
           "uv": [
@@ -129,7 +129,7 @@
             10.5,
             7.5
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "west": {
           "uv": [
@@ -138,7 +138,7 @@
             8.5,
             8.75
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "up": {
           "uv": [
@@ -147,7 +147,7 @@
             7,
             0
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "down": {
           "uv": [
@@ -156,7 +156,7 @@
             7,
             5
           ],
-          "texture": "#0"
+          "texture": "#missing"
         }
       }
     },
@@ -188,7 +188,7 @@
             12,
             8.75
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "east": {
           "uv": [
@@ -197,7 +197,7 @@
             11,
             2.25
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "south": {
           "uv": [
@@ -206,7 +206,7 @@
             7,
             10
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "west": {
           "uv": [
@@ -215,7 +215,7 @@
             11,
             3.5
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "up": {
           "uv": [
@@ -224,7 +224,7 @@
             3.5,
             10
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "down": {
           "uv": [
@@ -233,7 +233,7 @@
             7,
             10.5
           ],
-          "texture": "#0"
+          "texture": "#missing"
         }
       }
     },
@@ -265,7 +265,7 @@
             10.5,
             10
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "east": {
           "uv": [
@@ -274,7 +274,7 @@
             4,
             11.75
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "south": {
           "uv": [
@@ -283,7 +283,7 @@
             3.5,
             10.75
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "west": {
           "uv": [
@@ -292,7 +292,7 @@
             11,
             4.75
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "up": {
           "uv": [
@@ -301,7 +301,7 @@
             10.5,
             0
           ],
-          "texture": "#0"
+          "texture": "#missing"
         },
         "down": {
           "uv": [
@@ -310,7 +310,7 @@
             10.5,
             1
           ],
-          "texture": "#0"
+          "texture": "#missing"
         }
       }
     }
@@ -354,7 +354,7 @@
     "gui": {
       "rotation": [
         0,
-        180,
+        -180,
         0
       ],
       "scale": [
@@ -378,7 +378,7 @@
     "on_shelf": {
       "rotation": [
         0,
-        180,
+        -180,
         0
       ]
     }

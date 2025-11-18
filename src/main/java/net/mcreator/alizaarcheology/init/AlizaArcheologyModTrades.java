@@ -27,7 +27,7 @@ public class AlizaArcheologyModTrades {
 	@SubscribeEvent
 	public static void registerTrades(VillagerTradesEvent event) {
 		if (event.getType() == ResourceKey.create(Registries.VILLAGER_PROFESSION, ResourceLocation.parse("aliza_archeology:shipwright"))) {
-			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 16), new ItemStack(AlizaArcheologyModBlocks.SEALED_CHEST.get()), 10, 15, 0.15f));
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 16), new ItemStack(AlizaArcheologyModBlocks.NEW_SEAL_CHEST.get()), 10, 15, 0.15f));
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 16), new ItemStack(AlizaArcheologyModBlocks.SEALED_CHEST.get()), 4, 15, 0.15f));
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 40), new ItemStack(AlizaArcheologyModBlocks.DARK_SEALED_CHEST.get()), 2, 15, 0.45f));
 		}

@@ -3,7 +3,7 @@
   "textures": {
     "all": "aliza_archeology:block/texturebase",
     "particle": "aliza_archeology:block/texturebase",
-    "0": "aliza_archeology:block/texturebase"
+    "missing": "aliza_archeology:block/sealed_texture_base"
   },
   "render_type": "solid"
 }

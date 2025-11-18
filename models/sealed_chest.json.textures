@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "texturebase"
+        "missing": "sealed_texture_base"
       },
       "name": "default"
     }
