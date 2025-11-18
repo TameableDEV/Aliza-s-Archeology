@@ -417,10 +417,10 @@
       "registry_name": "idols_music_disc",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/alizaarcheology/item/IdolsMusicDiscItem.java",
+          "src/main/resources/assets/aliza_archeology/items/idols_music_disc.json",
           "src/main/resources/data/aliza_archeology/jukebox_song/idols_music_disc.json",
           "src/main/resources/assets/aliza_archeology/models/item/idols_music_disc.json",
-          "src/main/resources/assets/aliza_archeology/items/idols_music_disc.json"
+          "src/main/java/net/mcreator/alizaarcheology/item/IdolsMusicDiscItem.java"
         ]
       },
       "path": "~/Collectables"
