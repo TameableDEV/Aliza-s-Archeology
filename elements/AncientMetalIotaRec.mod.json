@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:UnknownMetal"
+      },
+      {
+        "value": "TAG:mod:stoneidols"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:mod:stoneidols"
+      },
+      {
+        "value": "CUSTOM:AncientMetalIota"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UnknownMetal"
+      },
+      {
+        "value": "CUSTOM:AncientMetalIota"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AncientMetalIota"
+    },
+    "name": "ancient_metal_iota_rec",
+    "namespace": "mod"
+  }
+}

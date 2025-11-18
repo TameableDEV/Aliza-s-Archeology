@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "aliza_archeology:luminous_rho_fluid"
+    },
+    "title": {
+      "translate": "advancements.drink_rho_fluid.title"
+    },
+    "description": {
+      "translate": "advancements.drink_rho_fluid.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drink_rho_fluid_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "aliza_archeology:alizas_archeology_root_advancement"
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "cookingrho",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:CuproaruroComposite"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.7,
+    "cookingTime": 300,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:CuproaruroComposite"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:RhoAlloy"
+    },
+    "name": "rho_alloy_rec_1",
+    "namespace": "mod"
+  }
+}

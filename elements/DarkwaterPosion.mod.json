@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Darkwater Posion",
+    "icon": "darkwater_posioning",
+    "color": {
+      "value": -13434727,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "CUSTOM:Darkwatersoaked"
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": true,
+    "modifiers": [],
+    "onActiveTick": {
+      "name": "DarkwaterPosionOnEffectActiveTick"
+    }
+  }
+}

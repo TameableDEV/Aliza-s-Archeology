@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:LuminousRhoFluid"
+      },
+      {
+        "value": "CUSTOM:SuspendedGel"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuminousRhoFluid"
+      },
+      {
+        "value": "CUSTOM:SuspendedGel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RhoAlloy"
+      },
+      {
+        "value": "CUSTOM:RhoAlloy"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NightVisionEmitters"
+    },
+    "name": "night_vision_emitters_rec",
+    "namespace": "mod"
+  }
+}

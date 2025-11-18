@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Shipwright",
+    "pointOfInterest": {
+      "value": "Blocks.RAW_IRON_BLOCK"
+    },
+    "actionSound": {
+      "value": "entity.villager.work_armorer"
+    },
+    "hat": "None",
+    "professionTextureFile": "shipwright_ig_texture.png",
+    "zombifiedProfessionTextureFile": "shipwright_ig_texture.png"
+  }
+}

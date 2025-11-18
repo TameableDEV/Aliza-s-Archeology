@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "id": "aliza_archeology:wrecked_stone_idol"
+    },
+    "title": {
+      "translate": "advancements.alizas_eating_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.alizas_eating_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "alizas_eating_advancement_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "aliza_archeology:wrecked_stone_idol"
+          ]
+        }
+      }
+    },
+    "alizas_eating_advancement_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "aliza_archeology:luminous_rho_fluid"
+          ]
+        }
+      }
+    },
+    "alizas_eating_advancement_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "aliza_archeology:suspended_gel"
+          ]
+        }
+      }
+    },
+    "alizas_eating_advancement_3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "aliza_archeology:bottled_blaze_powder"
+          ]
+        }
+      }
+    },
+    "alizas_eating_advancement_4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "aliza_archeology:inky_mixture"
+          ]
+        }
+      }
+    },
+    "alizas_eating_advancement_5": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "aliza_archeology:thick_mixture"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "aliza_archeology:alizas_archeology_root_advancement"
+}

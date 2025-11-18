@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Toxic Seawater Bottle",
+    "splashName": "Splash Potion of Darkwater Poison",
+    "lingeringName": "Lingering Potion of Darkwater Posion",
+    "arrowName": "Arrow of Darkwater Poison",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:DarkwaterPosion"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

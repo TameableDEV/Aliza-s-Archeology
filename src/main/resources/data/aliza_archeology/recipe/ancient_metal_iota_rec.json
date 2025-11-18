@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#aliza_archeology:stoneidols",
+    "aliza_archeology:ancient_metal_iota",
+    "aliza_archeology:unknown_metal",
+    "aliza_archeology:ancient_metal_iota"
+  ],
+  "result": {
+    "id": "aliza_archeology:ancient_metal_iota",
+    "count": 3
+  }
+}

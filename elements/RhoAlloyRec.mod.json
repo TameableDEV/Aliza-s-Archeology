@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "cookingrho",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:CuproaruroComposite"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.7,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:CuproaruroComposite"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:RhoAlloy"
+    },
+    "name": "rho_alloy_rec",
+    "namespace": "mod"
+  }
+}

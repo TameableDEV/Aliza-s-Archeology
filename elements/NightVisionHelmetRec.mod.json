@@ -1,0 +1,59 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:NightVisionEmitters"
+      },
+      {
+        "value": "CUSTOM:NightVisionSpine"
+      },
+      {
+        "value": "CUSTOM:RhoHelmetShell"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:NightVisionEmitters"
+      },
+      {
+        "value": "CUSTOM:RhoAlloy"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NightVisionSpine"
+      },
+      {
+        "value": "CUSTOM:RhoHelmetShell"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AncientMetalIota"
+    },
+    "name": "night_vision_helmet_rec",
+    "namespace": "mod"
+  }
+}

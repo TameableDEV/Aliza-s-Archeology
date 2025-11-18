@@ -1,0 +1,10 @@
+{
+  "_fv": 79,
+  "_type": "bannerpattern",
+  "definition": {
+    "texture": "korvax3",
+    "shieldTexture": "korvaxs4",
+    "name": "Pattern Korvax",
+    "requireItem": true
+  }
+}

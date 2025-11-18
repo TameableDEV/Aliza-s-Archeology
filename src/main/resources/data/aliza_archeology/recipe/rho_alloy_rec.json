@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "cookingrho",
+  "category": "misc",
+  "experience": 0.7,
+  "cookingtime": 100,
+  "ingredient": "aliza_archeology:cuproaruro_composite",
+  "result": {
+    "id": "aliza_archeology:rho_alloy"
+  }
+}

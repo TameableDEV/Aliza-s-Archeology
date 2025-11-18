@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "aliza_archeology:cuproaruro_composite"
+    },
+    "title": {
+      "translate": "advancements.aquire_cuproraruro.title"
+    },
+    "description": {
+      "translate": "advancements.aquire_cuproraruro.descr"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aquire_cuproraruro_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aliza_archeology:cuproaruro_composite"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1000000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "aliza_archeology:cuproaruro_composite_rec",
+      "aliza_archeology:rho_alloy_rec",
+      "aliza_archeology:rho_alloy_rec_1"
+    ]
+  },
+  "parent": "aliza_archeology:alizas_archeology_root_advancement"
+}

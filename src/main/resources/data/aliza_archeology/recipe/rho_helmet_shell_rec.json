@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:iron_nugget",
+  "base": "aliza_archeology:unassembled_rho_helmet_shell",
+  "addition": "minecraft:iron_nugget",
+  "result": {
+    "id": "aliza_archeology:rho_helmet_shell"
+  }
+}

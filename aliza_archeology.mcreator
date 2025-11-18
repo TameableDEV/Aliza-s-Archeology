@@ -1,0 +1,1281 @@
+{
+  "mod_elements": [
+    {
+      "name": "AlizaArcheologyTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aliza_archeology_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Testtablearch",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testtablearch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/loot_table/archaeology/test.json"
+        ]
+      }
+    },
+    {
+      "name": "KorvaxBannerPattern",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korvax_banner_pattern",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/item/KorvaxBannerPatternItem.java",
+          "src/main/resources/data/aliza_archeology/tags/banner_pattern/pattern_item/korvax_banner_pattern.json",
+          "src/main/resources/assets/aliza_archeology/models/item/korvax_banner_pattern.json",
+          "src/main/resources/assets/aliza_archeology/items/korvax_banner_pattern.json"
+        ]
+      },
+      "path": "~/Collectables"
+    },
+    {
+      "name": "PatternKorvax",
+      "type": "bannerpattern",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pattern_korvax",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/banner_pattern/pattern_korvax.json"
+        ]
+      },
+      "path": "~/Collectables"
+    },
+    {
+      "name": "DarkwaterPosionOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkwater_posion_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/procedures/DarkwaterPosionOnEffectActiveTickProcedure.java"
+        ]
+      },
+      "path": "~/darkwater"
+    },
+    {
+      "name": "DarkwaterPosion",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkwater_posion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/potion/DarkwaterPosionMobEffect.java"
+        ]
+      },
+      "path": "~/darkwater"
+    },
+    {
+      "name": "Darkwatersoaked",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkwatersoaked",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/particles/darkwatersoaked.json",
+          "src/main/java/net/mcreator/alizaarcheology/client/particle/DarkwatersoakedParticle.java"
+        ]
+      },
+      "path": "~/darkwater"
+    },
+    {
+      "name": "Darkwater",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkwater",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/damage_type/darkwater.json"
+        ]
+      },
+      "path": "~/darkwater"
+    },
+    {
+      "name": "DarkwaterPosionActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkwater_posion_active_tick_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/procedures/DarkwaterPosionActiveTickConditionProcedure.java"
+        ]
+      },
+      "path": "~/darkwater"
+    },
+    {
+      "name": "ToxicSeawater",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_seawater",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/darkwater"
+    },
+    {
+      "name": "SealedChest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sealed_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/items/sealed_chest.json",
+          "src/main/resources/assets/aliza_archeology/models/item/sealed_chest.json",
+          "src/main/resources/data/aliza_archeology/loot_table/blocks/sealed_chest.json",
+          "src/main/java/net/mcreator/alizaarcheology/block/SealedChestBlock.java",
+          "src/main/resources/assets/aliza_archeology/models/block/sealed_chest.json",
+          "src/main/resources/assets/aliza_archeology/blockstates/sealed_chest.json"
+        ]
+      },
+      "path": "~/Sealed Chests"
+    },
+    {
+      "name": "SealedChestLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sealed_chest_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/loot_table/chests/sealed_chest.json"
+        ]
+      },
+      "path": "~/Sealed Chests"
+    },
+    {
+      "name": "Shipwright",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shipwright",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/villager stuff"
+    },
+    {
+      "name": "SealedChestTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sealed_chest_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/villager stuff"
+    },
+    {
+      "name": "Wanderingshit",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanderingshit",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/villager stuff"
+    },
+    {
+      "name": "ProductBannerPattern",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "product_banner_pattern",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/tags/banner_pattern/pattern_item/product_banner_pattern.json",
+          "src/main/resources/assets/aliza_archeology/models/item/product_banner_pattern.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/ProductBannerPatternItem.java",
+          "src/main/resources/assets/aliza_archeology/items/product_banner_pattern.json"
+        ]
+      },
+      "path": "~/Collectables"
+    },
+    {
+      "name": "PatternProduct",
+      "type": "bannerpattern",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pattern_product",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/banner_pattern/pattern_product.json"
+        ]
+      },
+      "path": "~/Collectables"
+    },
+    {
+      "name": "DarkSealedChest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_sealed_chest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/block/DarkSealedChestBlock.java",
+          "src/main/resources/data/aliza_archeology/loot_table/blocks/dark_sealed_chest.json",
+          "src/main/resources/assets/aliza_archeology/models/item/dark_sealed_chest.json",
+          "src/main/resources/assets/aliza_archeology/blockstates/dark_sealed_chest.json",
+          "src/main/resources/assets/aliza_archeology/models/block/dark_sealed_chest.json",
+          "src/main/resources/assets/aliza_archeology/items/dark_sealed_chest.json"
+        ]
+      },
+      "path": "~/Sealed Chests"
+    },
+    {
+      "name": "DarkwaterDiscovery",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkwater_discovery",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/darkwater_discovery.json"
+        ]
+      },
+      "path": "~/darkwater"
+    },
+    {
+      "name": "ShipwrightTradesLessBasic",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shipwright_trades_less_basic",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/villager stuff"
+    },
+    {
+      "name": "ShipwrightTradesBasic",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shipwright_trades_basic",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/villager stuff"
+    },
+    {
+      "name": "ShipwrightTradesMasterBait",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shipwright_trades_master_bait",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/villager stuff"
+    },
+    {
+      "name": "ShipwrightTradesAdvanced",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shipwright_trades_advanced",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/villager stuff"
+    },
+    {
+      "name": "ChestUnsealer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_unsealer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/items/chest_unsealer.json",
+          "src/main/resources/assets/aliza_archeology/models/item/chest_unsealer.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/ChestUnsealerItem.java"
+        ]
+      },
+      "path": "~/villager stuff"
+    },
+    {
+      "name": "ChestUnsealerRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_unsealer_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/procedures/ChestUnsealerRightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/villager stuff"
+    },
+    {
+      "name": "CuriousStoneIdol",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curious_stone_idol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/models/item/curious_stone_idol.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/CuriousStoneIdolItem.java",
+          "src/main/resources/assets/aliza_archeology/items/curious_stone_idol.json"
+        ]
+      },
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "FadedStoneIdol",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_stone_idol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/item/FadedStoneIdolItem.java",
+          "src/main/resources/assets/aliza_archeology/items/faded_stone_idol.json",
+          "src/main/resources/assets/aliza_archeology/models/item/faded_stone_idol.json"
+        ]
+      },
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "WreckedStoneIdolPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrecked_stone_idol_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/procedures/WreckedStoneIdolPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "WreckedStoneIdol",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrecked_stone_idol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/item/WreckedStoneIdolItem.java",
+          "src/main/resources/assets/aliza_archeology/items/wrecked_stone_idol.json",
+          "src/main/resources/assets/aliza_archeology/models/item/wrecked_stone_idol.json"
+        ]
+      },
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "IdolsMusicDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idols_music_disc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/item/IdolsMusicDiscItem.java",
+          "src/main/resources/data/aliza_archeology/jukebox_song/idols_music_disc.json",
+          "src/main/resources/assets/aliza_archeology/models/item/idols_music_disc.json",
+          "src/main/resources/assets/aliza_archeology/items/idols_music_disc.json"
+        ]
+      },
+      "path": "~/Collectables"
+    },
+    {
+      "name": "IsolsLaIntersticerec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isols_la_intersticerec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/recipes/isols_la_intersticerec.json",
+          "src/main/resources/data/aliza_archeology/recipe/isols_la_intersticerec.json"
+        ]
+      },
+      "path": "~/Collectables/Recipies"
+    },
+    {
+      "name": "AncientMetalIota",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_metal_iota",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/item/AncientMetalIotaItem.java",
+          "src/main/resources/assets/aliza_archeology/models/item/ancient_metal_iota.json",
+          "src/main/resources/assets/aliza_archeology/items/ancient_metal_iota.json"
+        ]
+      },
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "UnknownMetal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_metal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/models/item/unknown_metal.json",
+          "src/main/resources/assets/aliza_archeology/items/unknown_metal.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/UnknownMetalItem.java"
+        ]
+      },
+      "path": "~/Artifacts"
+    },
+    {
+      "name": "AncientMetalIotaRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_metal_iota_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/recipe/ancient_metal_iota_rec.json",
+          "src/main/resources/data/aliza_archeology/advancement/recipes/ancient_metal_iota_rec.json"
+        ]
+      },
+      "path": "~/Collectables/Recipies"
+    },
+    {
+      "name": "NightVisionEmitters",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_emitters",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/items/night_vision_emitters.json",
+          "src/main/resources/assets/aliza_archeology/models/item/night_vision_emitters.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/NightVisionEmittersItem.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "RhoAlloy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rho_alloy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/item/RhoAlloyItem.java",
+          "src/main/resources/assets/aliza_archeology/models/item/rho_alloy.json",
+          "src/main/resources/assets/aliza_archeology/items/rho_alloy.json"
+        ]
+      },
+      "path": "~/Collectables"
+    },
+    {
+      "name": "CuproaruroComposite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuproaruro_composite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/item/CuproaruroCompositeItem.java",
+          "src/main/resources/assets/aliza_archeology/models/item/cuproaruro_composite.json",
+          "src/main/resources/assets/aliza_archeology/items/cuproaruro_composite.json"
+        ]
+      },
+      "path": "~/Collectables"
+    },
+    {
+      "name": "CuproaruroCompositeRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuproaruro_composite_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/recipes/cuproaruro_composite_rec.json",
+          "src/main/resources/data/aliza_archeology/recipe/cuproaruro_composite_rec.json"
+        ]
+      },
+      "path": "~/Collectables"
+    },
+    {
+      "name": "RhoAlloyRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rho_alloy_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/recipes/rho_alloy_rec.json",
+          "src/main/resources/data/aliza_archeology/recipe/rho_alloy_rec.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "RhoAlloyRec1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rho_alloy_rec_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/recipe/rho_alloy_rec_1.json",
+          "src/main/resources/data/aliza_archeology/advancement/recipes/rho_alloy_rec_1.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "NightVisionHelmetRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_helmet_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/recipes/night_vision_helmet_rec.json",
+          "src/main/resources/data/aliza_archeology/recipe/night_vision_helmet_rec.json"
+        ]
+      },
+      "path": "~/Collectables/Recipies"
+    },
+    {
+      "name": "NightVisionEmittersRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_emitters_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/recipes/night_vision_emitters_rec.json",
+          "src/main/resources/data/aliza_archeology/recipe/night_vision_emitters_rec.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "IsolsLaIntersticeRec1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isols_la_interstice_rec_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/recipe/isols_la_interstice_rec_1.json",
+          "src/main/resources/data/aliza_archeology/advancement/recipes/isols_la_interstice_rec_1.json"
+        ]
+      },
+      "path": "~/Collectables/Recipies"
+    },
+    {
+      "name": "LuminousRhoFluid",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminous_rho_fluid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/item/LuminousRhoFluidItem.java",
+          "src/main/resources/assets/aliza_archeology/items/luminous_rho_fluid.json",
+          "src/main/resources/assets/aliza_archeology/models/item/luminous_rho_fluid.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "DrinkRhoFluid",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_rho_fluid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/drink_rho_fluid.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "LuminousRhoFluidPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminous_rho_fluid_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/procedures/LuminousRhoFluidPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet/logic"
+    },
+    {
+      "name": "AlizasArcheologyRootAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alizas_archeology_root_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/alizas_archeology_root_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AquireCuporaruro",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquire_cuproraruro",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/aquire_cuproraruro.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AquireRhoAlloy",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquire_rho_alloy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/aquire_rho_alloy.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AquireEmitters",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquire_emitters",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/aquire_emitters.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "NVHAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nvh_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/nvh_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SuspendedGelPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspended_gel_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/procedures/SuspendedGelPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SuspendedGel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspended_gel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/models/item/suspended_gel.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/SuspendedGelItem.java",
+          "src/main/resources/assets/aliza_archeology/items/suspended_gel.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "SuspendedGelRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspended_gel_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/recipes/suspended_gel_rec.json",
+          "src/main/resources/data/aliza_archeology/recipe/suspended_gel_rec.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "AlizasEatingAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alizas_eating_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/alizas_eating_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BottledBlazePowderPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottled_blaze_powder_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/procedures/BottledBlazePowderPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet/logic"
+    },
+    {
+      "name": "BottledBlazePowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottled_blaze_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/models/item/bottled_blaze_powder.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/BottledBlazePowderItem.java",
+          "src/main/resources/assets/aliza_archeology/items/bottled_blaze_powder.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "RhoFluidBase",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rho_fluid_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/recipe/rho_fluid_base.json",
+          "src/main/resources/data/aliza_archeology/advancement/recipes/rho_fluid_base.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "InkyMixturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inky_mixture_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/procedures/InkyMixturePlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet/logic"
+    },
+    {
+      "name": "InkyMixture",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inky_mixture",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/item/InkyMixtureItem.java",
+          "src/main/resources/assets/aliza_archeology/items/inky_mixture.json",
+          "src/main/resources/assets/aliza_archeology/models/item/inky_mixture.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "ThickMixture",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thick_mixture",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/models/item/thick_mixture.json",
+          "src/main/resources/assets/aliza_archeology/items/thick_mixture.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/ThickMixtureItem.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "ThickMixturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thick_mixture_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/procedures/ThickMixturePlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet/logic"
+    },
+    {
+      "name": "InkyMixtureRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inky_mixture_rec",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/recipe/brewing/InkyMixtureRecBrewingRecipe.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "ThickMixtureRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thick_mixture_rec",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/recipe/brewing/ThickMixtureRecBrewingRecipe.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "ThickMixtureRec1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thick_mixture_rec_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/recipe/brewing/ThickMixtureRec1BrewingRecipe.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "RhoFluidRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rho_fluid_rec",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/recipe/brewing/RhoFluidRecBrewingRecipe.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "RhoFluidRec1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rho_fluid_rec_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/recipe/brewing/RhoFluidRec1BrewingRecipe.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "RhoFluidRec2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rho_fluid_rec_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/recipe/brewing/RhoFluidRec2BrewingRecipe.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "NightVisionSpine",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_spine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/models/item/night_vision_spine.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/NightVisionSpineItem.java",
+          "src/main/resources/assets/aliza_archeology/items/night_vision_spine.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "RhoHelmetShell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rho_helmet_shell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alizaarcheology/item/RhoHelmetShellItem.java",
+          "src/main/resources/assets/aliza_archeology/models/item/rho_helmet_shell.json",
+          "src/main/resources/assets/aliza_archeology/items/rho_helmet_shell.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "NightVisionSpineRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_spine_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/advancement/recipes/night_vision_spine_rec.json",
+          "src/main/resources/data/aliza_archeology/recipe/night_vision_spine_rec.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "RhoHelmetShellRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rho_helmet_shell_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/recipe/rho_helmet_shell_rec.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "UnassembledRhoHelmetShell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unassembled_rho_helmet_shell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/items/unassembled_rho_helmet_shell.json",
+          "src/main/resources/assets/aliza_archeology/models/item/unassembled_rho_helmet_shell.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/UnassembledRhoHelmetShellItem.java"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "UnassembledRhoHelmetShellRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unassembled_rho_helmet_shell_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/recipe/unassembled_rho_helmet_shell_rec.json"
+        ]
+      },
+      "path": "~/NightVisionHelmet"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "DAMAGE_TYPES:minecraft:no_knockback": [
+      "CUSTOM:Darkwater"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:DarkSealedChest",
+      "~CUSTOM:SealedChest"
+    ],
+    "ITEMS:mod:stoneidols": [
+      "CUSTOM:CuriousStoneIdol",
+      "CUSTOM:FadedStoneIdol",
+      "CUSTOM:WreckedStoneIdol"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:IdolsMusicDisc"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "~CUSTOM:CuproaruroComposite"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:AlizaArcheologyTab": [
+      "KorvaxBannerPattern",
+      "ProductBannerPattern",
+      "SealedChest",
+      "DarkSealedChest",
+      "ChestUnsealer",
+      "CuproaruroComposite",
+      "RhoAlloy",
+      "UnknownMetal",
+      "AncientMetalIota",
+      "CuriousStoneIdol",
+      "FadedStoneIdol",
+      "WreckedStoneIdol",
+      "BottledBlazePowder",
+      "ThickMixture",
+      "InkyMixture",
+      "LuminousRhoFluid",
+      "SuspendedGel",
+      "NightVisionEmitters",
+      "NightVisionSpine",
+      "UnassembledRhoHelmetShell",
+      "RhoHelmetShell"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item_group.aliza_archeology.aliza_archeology_tab": "Aliza\u0027s Archeology",
+      "item.aliza_archeology.korvax_banner_pattern": "Korvax Banner Pattern",
+      "block.aliza_archeology.banner.pattern_korvax.black": "Black Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.light_gray": "Light Gray Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.white": "White Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.red": "Red Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.green": "Green Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.orange": "Orange Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.blue": "Blue Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.light_blue": "Light Blue Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.yellow": "Yellow Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.purple": "Purple Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.lime": "Lime Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.magenta": "Magenta Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.pink": "Pink Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.gray": "Gray Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.cyan": "Cyan Pattern Korvax",
+      "block.aliza_archeology.banner.pattern_korvax.brown": "Brown Pattern Korvax",
+      "effect.aliza_archeology.darkwater_posion": "Darkwater Posion",
+      "death.attack.darkwater.item": "%1$s was killed by %2$s using %3$s",
+      "death.attack.darkwater.player": "%1$s\u0027s skin melted off whilst trying to escape %2$s",
+      "death.attack.darkwater": "%1$s developed a fatal water addiction",
+      "item.minecraft.lingering_potion.effect.toxic_seawater": "Lingering Potion of Darkwater Posion",
+      "item.minecraft.potion.effect.toxic_seawater": "Toxic Seawater Bottle",
+      "item.minecraft.splash_potion.effect.toxic_seawater": "Splash Potion of Darkwater Poison",
+      "item.minecraft.tipped_arrow.effect.toxic_seawater": "Arrow of Darkwater Poison",
+      "item.aliza_archeology.sealed_chest": "Sealed Chest",
+      "entity.villager.aliza_archeology.shipwright": "Shipwright",
+      "item.aliza_archeology.product_banner_pattern": "Product Banner Pattern",
+      "block.aliza_archeology.banner.pattern_product.lime": "Lime Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.pink": "Pink Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.red": "Red Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.brown": "Brown Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.yellow": "Yellow Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.magenta": "Magenta Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.black": "Black Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.blue": "Blue Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.orange": "Orange Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.gray": "Gray Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.white": "White Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.light_gray": "Light Gray Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.cyan": "Cyan Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.green": "Green Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.purple": "Purple Pattern Product",
+      "block.aliza_archeology.banner.pattern_product.light_blue": "Light Blue Pattern Product",
+      "item.aliza_archeology.dark_sealed_chest": "Dark Sealed Chest",
+      "advancements.darkwater_discovery.descr": "Get inflicted with a painful, water-related side effect of artifact hunting.",
+      "advancements.darkwater_discovery.title": "Darkwater Discovery",
+      "item.aliza_archeology.chest_unsealer": "Chest Unsealer",
+      "item.aliza_archeology.curious_stone_idol": "Curious Stone Idol",
+      "item.aliza_archeology.faded_stone_idol": "Faded Stone Idol",
+      "item.aliza_archeology.wrecked_stone_idol": "Wrecked Stone Idol",
+      "item.aliza_archeology.idols_music_disc.desc": "Honeycomb was on",
+      "item.aliza_archeology.idols_music_disc": "Idols Music Disc",
+      "item.aliza_archeology.ancient_metal_iota": "Ancient Metal ι",
+      "item.aliza_archeology.unknown_metal": "Unknown Metal",
+      "item.aliza_archeology.night_vision_emitters": "NVH Emitters",
+      "item.aliza_archeology.rho_alloy": "Rho Alloy (ρ)",
+      "item.aliza_archeology.cuproaruro_composite": "Cuproaruro Composite",
+      "item.aliza_archeology.luminous_rho_fluid": "Luminous Rho Fluid",
+      "advancements.drink_rho_fluid.descr": "Drink Rho Fluid and avoid it\u0027s nasueating side effects.",
+      "advancements.drink_rho_fluid.title": "Golden Stomach",
+      "advancements.alizas_archeology_root_advancement.title": "Aliza\u0027s Archeology",
+      "advancements.alizas_archeology_root_advancement.descr": "Welcome to this wonderful planet full of ancient and otherworldly mystery!",
+      "advancements.aquire_rho_alloy.descr": "Initiate the pathway to recreating unknown technology",
+      "advancements.aquire_rho_alloy.title": "The Rho Alloy",
+      "advancements.aquire_cuproraruro.title": "Aquire Cuproraruro",
+      "advancements.aquire_cuproraruro.descr": "Begin the pathway to recreating unknown technology",
+      "advancements.aquire_emitters.descr": "Follow ancient intrustions to create the Emitters",
+      "advancements.aquire_emitters.title": "Lights In The Shaow",
+      "advancements.nvh_advancement.descr": "Fabricate the ancient wonder with new world technology.",
+      "advancements.nvh_advancement.title": "NVH",
+      "item.aliza_archeology.suspended_gel": "Suspended Gel",
+      "advancements.alizas_eating_advancement.descr": "Eat everything you really shouldn\u0027t.",
+      "advancements.alizas_eating_advancement.title": "What In The Nether Is Wrong With You?",
+      "item.aliza_archeology.bottled_blaze_powder": "Bottled Blaze Powder",
+      "item.aliza_archeology.inky_mixture": "Inky Mixture",
+      "item.aliza_archeology.thick_mixture": "Thick Mixture",
+      "item.aliza_archeology.night_vision_spine": "NVH Spine",
+      "item.aliza_archeology.rho_helmet_shell": "NVH Shell",
+      "item.aliza_archeology.unassembled_rho_helmet_shell": "Unassembled Rho Helmet Shell"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/data/minecraft/tags/banner_pattern/no_item_required.json",
+      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModParticleTypes.java",
+      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModParticles.java",
+      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModMobEffects.java",
+      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModPotions.java",
+      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModTrades.java",
+      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModBlocks.java",
+      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModItems.java",
+      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/alizaarcheology/AlizaArcheologyMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Structure",
+        "children": []
+      },
+      {
+        "name": "darkwater",
+        "children": []
+      },
+      {
+        "name": "villager stuff",
+        "children": []
+      },
+      {
+        "name": "Sealed Chests",
+        "children": []
+      },
+      {
+        "name": "Artifacts",
+        "children": []
+      },
+      {
+        "name": "Collectables",
+        "children": [
+          {
+            "name": "Recipies",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "NightVisionHelmet",
+        "children": [
+          {
+            "name": "logic",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "aliza_archeology",
+    "modName": "Aliza\u0027s Archeology",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.mcreator.alizaarcheology"
+  },
+  "mcreatorVersion": 202500344519
+}

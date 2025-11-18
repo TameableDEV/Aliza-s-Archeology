@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "aliza_archeology:wrecked_stone_idol",
+    "minecraft:iron_ingot",
+    "#minecraft:terracotta"
+  ],
+  "result": {
+    "id": "aliza_archeology:idols_music_disc",
+    "count": 1
+  }
+}

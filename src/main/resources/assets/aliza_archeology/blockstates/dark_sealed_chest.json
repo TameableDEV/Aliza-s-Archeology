@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aliza_archeology:block/dark_sealed_chest"
+    },
+    "facing=east": {
+      "model": "aliza_archeology:block/dark_sealed_chest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aliza_archeology:block/dark_sealed_chest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aliza_archeology:block/dark_sealed_chest",
+      "y": 270
+    }
+  }
+}

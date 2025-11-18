@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "aliza_archeology:rho_alloy"
+    },
+    "title": {
+      "translate": "advancements.aquire_rho_alloy.title"
+    },
+    "description": {
+      "translate": "advancements.aquire_rho_alloy.descr"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aquire_rho_alloy_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aliza_archeology:rho_alloy"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1000000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "aliza_archeology:alizas_archeology_root_advancement"
+}

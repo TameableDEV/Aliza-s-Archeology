@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cde",
+    "fe "
+  ],
+  "key": {
+    "a": "minecraft:repeater",
+    "b": "minecraft:comparator",
+    "c": "minecraft:golden_carrot",
+    "d": "minecraft:soul_soil",
+    "e": "aliza_archeology:rho_alloy",
+    "f": "minecraft:redstone"
+  },
+  "result": {
+    "id": "aliza_archeology:night_vision_spine",
+    "count": 1
+  }
+}

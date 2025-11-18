@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "aliza_archeology:screens/archeologybackdrop_smaller",
+    "icon": {
+      "id": "minecraft:suspicious_gravel"
+    },
+    "title": {
+      "translate": "advancements.alizas_archeology_root_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.alizas_archeology_root_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "alizas_archeology_root_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brush"
+            ],
+            "count": {
+              "min": 1,
+              "max": 100
+            }
+          }
+        ]
+      }
+    }
+  }
+}

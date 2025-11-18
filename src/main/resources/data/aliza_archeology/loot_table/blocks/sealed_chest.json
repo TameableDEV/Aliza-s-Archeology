@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "aliza_archeology:blocks/sealed_chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aliza_archeology:sealed_chest"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "aliza_archeology:unknown_metal"
+    },
+    "title": {
+      "translate": "advancements.nvh_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.nvh_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nvh_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 150
+  },
+  "parent": "aliza_archeology:aquire_emitters"
+}

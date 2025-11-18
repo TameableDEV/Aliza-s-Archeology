@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:redstone",
+    "minecraft:echo_shard",
+    "minecraft:slime_ball",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:quartz"
+  ],
+  "result": {
+    "id": "aliza_archeology:suspended_gel",
+    "count": 2
+  }
+}

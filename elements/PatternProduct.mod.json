@@ -1,0 +1,10 @@
+{
+  "_fv": 79,
+  "_type": "bannerpattern",
+  "definition": {
+    "texture": "product2",
+    "shieldTexture": "products4",
+    "name": "Pattern Product",
+    "requireItem": false
+  }
+}

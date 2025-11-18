@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RhoAlloy"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RhoAlloy"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "CUSTOM:RhoAlloy"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnassembledRhoHelmetShell"
+    },
+    "name": "unassembled_rho_helmet_shell_rec",
+    "namespace": "mod"
+  }
+}

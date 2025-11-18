@@ -1,0 +1,59 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:CuriousStoneIdol"
+      },
+      {
+        "value": "CUSTOM:FadedStoneIdol"
+      },
+      {
+        "value": "CUSTOM:WreckedStoneIdol"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WreckedStoneIdol"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IdolsMusicDisc"
+    },
+    "name": "isols_la_interstice_rec_1",
+    "namespace": "mod"
+  }
+}

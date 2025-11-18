@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cc"
+  ],
+  "key": {
+    "a": "aliza_archeology:luminous_rho_fluid",
+    "b": "aliza_archeology:suspended_gel",
+    "c": "aliza_archeology:rho_alloy"
+  },
+  "result": {
+    "id": "aliza_archeology:night_vision_emitters",
+    "count": 1
+  }
+}

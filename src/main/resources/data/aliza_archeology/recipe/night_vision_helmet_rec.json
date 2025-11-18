@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": "aliza_archeology:night_vision_emitters",
+    "b": "aliza_archeology:rho_alloy",
+    "c": "aliza_archeology:night_vision_spine",
+    "d": "aliza_archeology:rho_helmet_shell"
+  },
+  "result": {
+    "id": "aliza_archeology:ancient_metal_iota",
+    "count": 1
+  }
+}

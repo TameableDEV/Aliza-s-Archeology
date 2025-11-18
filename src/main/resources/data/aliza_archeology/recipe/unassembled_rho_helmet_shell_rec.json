@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba"
+  ],
+  "key": {
+    "a": "aliza_archeology:rho_alloy",
+    "b": "minecraft:leather"
+  },
+  "result": {
+    "id": "aliza_archeology:unassembled_rho_helmet_shell",
+    "count": 1
+  }
+}
