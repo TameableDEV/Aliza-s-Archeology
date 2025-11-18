@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aliza_archeology:block/sealed_texture_base",
+    "up": "aliza_archeology:block/sealed_texture_base",
+    "north": "aliza_archeology:block/sealed_texture_base",
+    "east": "aliza_archeology:block/sealed_texture_base",
+    "south": "aliza_archeology:block/sealed_texture_base",
+    "west": "aliza_archeology:block/sealed_texture_base",
+    "particle": "aliza_archeology:block/texturebase"
+  },
+  "render_type": "solid"
+}

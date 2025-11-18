@@ -249,12 +249,12 @@
       "registry_name": "dark_sealed_chest",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aliza_archeology/models/block/dark_sealed_chest.json",
           "src/main/java/net/mcreator/alizaarcheology/block/DarkSealedChestBlock.java",
           "src/main/resources/data/aliza_archeology/loot_table/blocks/dark_sealed_chest.json",
-          "src/main/resources/assets/aliza_archeology/models/item/dark_sealed_chest.json",
+          "src/main/resources/assets/aliza_archeology/items/dark_sealed_chest.json",
           "src/main/resources/assets/aliza_archeology/blockstates/dark_sealed_chest.json",
-          "src/main/resources/assets/aliza_archeology/models/block/dark_sealed_chest.json",
-          "src/main/resources/assets/aliza_archeology/items/dark_sealed_chest.json"
+          "src/main/resources/assets/aliza_archeology/models/item/dark_sealed_chest.json"
         ]
       },
       "path": "~/Sealed Chests"
@@ -1063,6 +1063,39 @@
         ]
       },
       "path": "~/NightVisionHelmet"
+    },
+    {
+      "name": "NewSealChest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_seal_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/models/block/new_seal_chest.json",
+          "src/main/resources/assets/aliza_archeology/models/item/new_seal_chest.json",
+          "src/main/resources/assets/aliza_archeology/blockstates/new_seal_chest.json",
+          "src/main/java/net/mcreator/alizaarcheology/block/NewSealChestBlock.java",
+          "src/main/resources/assets/aliza_archeology/items/new_seal_chest.json",
+          "src/main/resources/data/aliza_archeology/loot_table/blocks/new_seal_chest.json"
+        ]
+      },
+      "path": "~/Sealed Chests"
+    },
+    {
+      "name": "SealedChestStates",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sealed_chest_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aliza_archeology/models/block/sealed_chest_states_blockstate_0.json",
+          "src/main/resources/assets/aliza_archeology/models/block/sealed_chest_states_blockstate_1.json",
+          "src/main/resources/assets/aliza_archeology/models/block/sealed_chest_states_blockstate_2.json"
+        ]
+      },
+      "path": "~/Sealed Chests"
     }
   ],
   "variable_elements": [],
@@ -1072,6 +1105,7 @@
       "CUSTOM:Darkwater"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:NewSealChest",
       "~CUSTOM:DarkSealedChest",
       "~CUSTOM:SealedChest"
     ],
@@ -1109,7 +1143,8 @@
       "NightVisionEmitters",
       "NightVisionSpine",
       "UnassembledRhoHelmetShell",
-      "RhoHelmetShell"
+      "RhoHelmetShell",
+      "NewSealChest"
     ]
   },
   "language_map": {
@@ -1194,7 +1229,8 @@
       "item.aliza_archeology.thick_mixture": "Thick Mixture",
       "item.aliza_archeology.night_vision_spine": "NVH Spine",
       "item.aliza_archeology.rho_helmet_shell": "NVH Shell",
-      "item.aliza_archeology.unassembled_rho_helmet_shell": "Unassembled Rho Helmet Shell"
+      "item.aliza_archeology.unassembled_rho_helmet_shell": "Unassembled Rho Helmet Shell",
+      "item.aliza_archeology.new_seal_chest": "Sealed Chest"
     }
   },
   "metadata": {

@@ -5,15 +5,20 @@ package net.mcreator.alizaarcheology.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.alizaarcheology.AlizaArcheologyMod;
 
+@EventBusSubscriber
 public class AlizaArcheologyModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AlizaArcheologyMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ALIZA_ARCHEOLOGY_TAB = REGISTRY.register("aliza_archeology_tab",
@@ -39,5 +44,13 @@ public class AlizaArcheologyModTabs {
 				tabData.accept(AlizaArcheologyModItems.NIGHT_VISION_SPINE.get());
 				tabData.accept(AlizaArcheologyModItems.UNASSEMBLED_RHO_HELMET_SHELL.get());
 				tabData.accept(AlizaArcheologyModItems.RHO_HELMET_SHELL.get());
+				tabData.accept(AlizaArcheologyModBlocks.NEW_SEAL_CHEST.get().asItem());
 			}).build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(AlizaArcheologyModBlocks.NEW_SEAL_CHEST.get().asItem());
+		}
+	}
 }

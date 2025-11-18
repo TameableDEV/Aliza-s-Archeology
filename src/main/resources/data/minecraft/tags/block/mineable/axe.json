@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "aliza_archeology:dark_sealed_chest",
-    "aliza_archeology:sealed_chest"
+    "aliza_archeology:sealed_chest",
+    "aliza_archeology:new_seal_chest"
   ]
 }

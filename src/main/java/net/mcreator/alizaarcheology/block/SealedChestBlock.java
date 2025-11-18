@@ -1,5 +1,7 @@
 package net.mcreator.alizaarcheology.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.neoforged.neoforge.common.util.DeferredSoundType;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -8,6 +10,7 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -30,13 +33,24 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 public class SealedChestBlock extends Block implements SimpleWaterloggedBlock {
+	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 3);
 	public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public SealedChestBlock(BlockBehaviour.Properties properties) {
 		super(properties.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.wood.break")), () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.wood.step")),
 				() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.chain.place")), () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.wood.hit")),
-				() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.metal.fall")))).strength(5f, 6f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.BASS));
+				() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.metal.fall")))).strength(5f, 6f).lightLevel(s -> (new Object() {
+					public int getLightLevel() {
+						if (s.getValue(BLOCKSTATE) == 1)
+							return 0;
+						if (s.getValue(BLOCKSTATE) == 2)
+							return 0;
+						if (s.getValue(BLOCKSTATE) == 3)
+							return 0;
+						return 0;
+					}
+				}.getLightLevel())).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape().instrument(NoteBlockInstrument.BASS));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
 
@@ -68,7 +82,7 @@ public class SealedChestBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		super.createBlockStateDefinition(builder);
-		builder.add(FACING, WATERLOGGED);
+		builder.add(FACING, WATERLOGGED, BLOCKSTATE);
 	}
 
 	@Override

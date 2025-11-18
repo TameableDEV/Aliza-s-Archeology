@@ -41,6 +41,7 @@ public class AlizaArcheologyModItems {
 	public static final DeferredItem<Item> NIGHT_VISION_SPINE;
 	public static final DeferredItem<Item> RHO_HELMET_SHELL;
 	public static final DeferredItem<Item> UNASSEMBLED_RHO_HELMET_SHELL;
+	public static final DeferredItem<Item> NEW_SEAL_CHEST;
 	static {
 		KORVAX_BANNER_PATTERN = register("korvax_banner_pattern", KorvaxBannerPatternItem::new);
 		SEALED_CHEST = block(AlizaArcheologyModBlocks.SEALED_CHEST, new Item.Properties().stacksTo(16).rarity(Rarity.UNCOMMON).fireResistant());
@@ -64,6 +65,7 @@ public class AlizaArcheologyModItems {
 		NIGHT_VISION_SPINE = register("night_vision_spine", NightVisionSpineItem::new);
 		RHO_HELMET_SHELL = register("rho_helmet_shell", RhoHelmetShellItem::new);
 		UNASSEMBLED_RHO_HELMET_SHELL = register("unassembled_rho_helmet_shell", UnassembledRhoHelmetShellItem::new);
+		NEW_SEAL_CHEST = block(AlizaArcheologyModBlocks.NEW_SEAL_CHEST, new Item.Properties().stacksTo(16).rarity(Rarity.UNCOMMON).fireResistant());
 	}
 
 	// Start of user code block custom items
