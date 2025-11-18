@@ -156,12 +156,12 @@
       "registry_name": "sealed_chest",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aliza_archeology/items/sealed_chest.json",
-          "src/main/resources/assets/aliza_archeology/models/item/sealed_chest.json",
-          "src/main/resources/data/aliza_archeology/loot_table/blocks/sealed_chest.json",
-          "src/main/java/net/mcreator/alizaarcheology/block/SealedChestBlock.java",
           "src/main/resources/assets/aliza_archeology/models/block/sealed_chest.json",
-          "src/main/resources/assets/aliza_archeology/blockstates/sealed_chest.json"
+          "src/main/resources/assets/aliza_archeology/models/item/sealed_chest.json",
+          "src/main/resources/assets/aliza_archeology/blockstates/sealed_chest.json",
+          "src/main/java/net/mcreator/alizaarcheology/block/SealedChestBlock.java",
+          "src/main/resources/assets/aliza_archeology/items/sealed_chest.json",
+          "src/main/resources/data/aliza_archeology/loot_table/blocks/sealed_chest.json"
         ]
       },
       "path": "~/Sealed Chests"
