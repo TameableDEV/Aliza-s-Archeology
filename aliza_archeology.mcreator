@@ -72,7 +72,7 @@
           "src/main/java/net/mcreator/alizaarcheology/procedures/DarkwaterPosionOnEffectActiveTickProcedure.java"
         ]
       },
-      "path": "~/darkwater"
+      "path": "~/PoopWater"
     },
     {
       "name": "DarkwaterPosion",
@@ -85,7 +85,7 @@
           "src/main/java/net/mcreator/alizaarcheology/potion/DarkwaterPosionMobEffect.java"
         ]
       },
-      "path": "~/darkwater"
+      "path": "~/PoopWater"
     },
     {
       "name": "Darkwatersoaked",
@@ -99,7 +99,7 @@
           "src/main/java/net/mcreator/alizaarcheology/client/particle/DarkwatersoakedParticle.java"
         ]
       },
-      "path": "~/darkwater"
+      "path": "~/PoopWater"
     },
     {
       "name": "Darkwater",
@@ -112,7 +112,7 @@
           "src/main/resources/data/aliza_archeology/damage_type/darkwater.json"
         ]
       },
-      "path": "~/darkwater"
+      "path": "~/PoopWater"
     },
     {
       "name": "DarkwaterPosionActiveTickCondition",
@@ -135,7 +135,7 @@
           "src/main/java/net/mcreator/alizaarcheology/procedures/DarkwaterPosionActiveTickConditionProcedure.java"
         ]
       },
-      "path": "~/darkwater"
+      "path": "~/PoopWater"
     },
     {
       "name": "ToxicSeawater",
@@ -146,7 +146,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/darkwater"
+      "path": "~/PoopWater"
     },
     {
       "name": "SealedChest",
@@ -270,7 +270,7 @@
           "src/main/resources/data/aliza_archeology/advancement/darkwater_discovery.json"
         ]
       },
-      "path": "~/darkwater"
+      "path": "~/PoopWater"
     },
     {
       "name": "ShipwrightTradesLessBasic",
@@ -1200,8 +1200,8 @@
   "metadata": {
     "files": [
       "src/main/resources/data/minecraft/tags/banner_pattern/no_item_required.json",
-      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModParticleTypes.java",
       "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModParticles.java",
+      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModParticleTypes.java",
       "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModMobEffects.java",
       "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModPotions.java",
       "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModVillagerProfessions.java",
@@ -1209,10 +1209,10 @@
       "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModTrades.java",
       "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModBlocks.java",
       "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModItems.java",
-      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModTabs.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/alizaarcheology/AlizaArcheologyMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/alizaarcheology/init/AlizaArcheologyModTabs.java"
     ]
   },
   "foldersRoot": {
@@ -1223,7 +1223,7 @@
         "children": []
       },
       {
-        "name": "darkwater",
+        "name": "PoopWater",
         "children": []
       },
       {
