@@ -1,0 +1,17 @@
+{
+  "name": "aliza_archeology:plains_ruin_1_dungeon_ruins1",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "aliza_archeology:plains_ruin1_bottom",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

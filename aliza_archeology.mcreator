@@ -31,8 +31,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/alizaarcheology/item/KorvaxBannerPatternItem.java",
-          "src/main/resources/data/aliza_archeology/tags/banner_pattern/pattern_item/korvax_banner_pattern.json",
           "src/main/resources/assets/aliza_archeology/models/item/korvax_banner_pattern.json",
+          "src/main/resources/data/aliza_archeology/tags/banner_pattern/pattern_item/korvax_banner_pattern.json",
           "src/main/resources/assets/aliza_archeology/items/korvax_banner_pattern.json"
         ]
       },
@@ -95,8 +95,8 @@
       "registry_name": "darkwatersoaked",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aliza_archeology/particles/darkwatersoaked.json",
-          "src/main/java/net/mcreator/alizaarcheology/client/particle/DarkwatersoakedParticle.java"
+          "src/main/java/net/mcreator/alizaarcheology/client/particle/DarkwatersoakedParticle.java",
+          "src/main/resources/assets/aliza_archeology/particles/darkwatersoaked.json"
         ]
       },
       "path": "~/PoopWater"
@@ -220,10 +220,10 @@
       "registry_name": "product_banner_pattern",
       "metadata": {
         "files": [
-          "src/main/resources/data/aliza_archeology/tags/banner_pattern/pattern_item/product_banner_pattern.json",
           "src/main/resources/assets/aliza_archeology/models/item/product_banner_pattern.json",
           "src/main/java/net/mcreator/alizaarcheology/item/ProductBannerPatternItem.java",
-          "src/main/resources/assets/aliza_archeology/items/product_banner_pattern.json"
+          "src/main/resources/assets/aliza_archeology/items/product_banner_pattern.json",
+          "src/main/resources/data/aliza_archeology/tags/banner_pattern/pattern_item/product_banner_pattern.json"
         ]
       },
       "path": "~/Collectables"
@@ -324,9 +324,9 @@
       "registry_name": "chest_unsealer",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/alizaarcheology/item/ChestUnsealerItem.java",
           "src/main/resources/assets/aliza_archeology/items/chest_unsealer.json",
-          "src/main/resources/assets/aliza_archeology/models/item/chest_unsealer.json",
-          "src/main/java/net/mcreator/alizaarcheology/item/ChestUnsealerItem.java"
+          "src/main/resources/assets/aliza_archeology/models/item/chest_unsealer.json"
         ]
       },
       "path": "~/villager stuff"
@@ -353,9 +353,9 @@
       "registry_name": "curious_stone_idol",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aliza_archeology/models/item/curious_stone_idol.json",
+          "src/main/resources/assets/aliza_archeology/items/curious_stone_idol.json",
           "src/main/java/net/mcreator/alizaarcheology/item/CuriousStoneIdolItem.java",
-          "src/main/resources/assets/aliza_archeology/items/curious_stone_idol.json"
+          "src/main/resources/assets/aliza_archeology/models/item/curious_stone_idol.json"
         ]
       },
       "path": "~/Artifacts"
@@ -368,9 +368,9 @@
       "registry_name": "faded_stone_idol",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aliza_archeology/models/item/faded_stone_idol.json",
           "src/main/java/net/mcreator/alizaarcheology/item/FadedStoneIdolItem.java",
-          "src/main/resources/assets/aliza_archeology/items/faded_stone_idol.json",
-          "src/main/resources/assets/aliza_archeology/models/item/faded_stone_idol.json"
+          "src/main/resources/assets/aliza_archeology/items/faded_stone_idol.json"
         ]
       },
       "path": "~/Artifacts"
@@ -417,10 +417,10 @@
       "registry_name": "idols_music_disc",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/alizaarcheology/item/IdolsMusicDiscItem.java",
+          "src/main/resources/assets/aliza_archeology/items/idols_music_disc.json",
           "src/main/resources/data/aliza_archeology/jukebox_song/idols_music_disc.json",
           "src/main/resources/assets/aliza_archeology/models/item/idols_music_disc.json",
-          "src/main/resources/assets/aliza_archeology/items/idols_music_disc.json"
+          "src/main/java/net/mcreator/alizaarcheology/item/IdolsMusicDiscItem.java"
         ]
       },
       "path": "~/Collectables"
@@ -433,8 +433,8 @@
       "registry_name": "isols_la_intersticerec",
       "metadata": {
         "files": [
-          "src/main/resources/data/aliza_archeology/advancement/recipes/isols_la_intersticerec.json",
-          "src/main/resources/data/aliza_archeology/recipe/isols_la_intersticerec.json"
+          "src/main/resources/data/aliza_archeology/recipe/isols_la_intersticerec.json",
+          "src/main/resources/data/aliza_archeology/advancement/recipes/isols_la_intersticerec.json"
         ]
       },
       "path": "~/Collectables/Recipies"
@@ -447,9 +447,9 @@
       "registry_name": "ancient_metal_iota",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aliza_archeology/items/ancient_metal_iota.json",
           "src/main/java/net/mcreator/alizaarcheology/item/AncientMetalIotaItem.java",
-          "src/main/resources/assets/aliza_archeology/models/item/ancient_metal_iota.json",
-          "src/main/resources/assets/aliza_archeology/items/ancient_metal_iota.json"
+          "src/main/resources/assets/aliza_archeology/models/item/ancient_metal_iota.json"
         ]
       },
       "path": "~/Artifacts"
@@ -462,9 +462,9 @@
       "registry_name": "unknown_metal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aliza_archeology/models/item/unknown_metal.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/UnknownMetalItem.java",
           "src/main/resources/assets/aliza_archeology/items/unknown_metal.json",
-          "src/main/java/net/mcreator/alizaarcheology/item/UnknownMetalItem.java"
+          "src/main/resources/assets/aliza_archeology/models/item/unknown_metal.json"
         ]
       },
       "path": "~/Artifacts"
@@ -491,8 +491,8 @@
       "registry_name": "night_vision_emitters",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aliza_archeology/items/night_vision_emitters.json",
           "src/main/resources/assets/aliza_archeology/models/item/night_vision_emitters.json",
+          "src/main/resources/assets/aliza_archeology/items/night_vision_emitters.json",
           "src/main/java/net/mcreator/alizaarcheology/item/NightVisionEmittersItem.java"
         ]
       },
@@ -506,9 +506,9 @@
       "registry_name": "rho_alloy",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aliza_archeology/items/rho_alloy.json",
           "src/main/java/net/mcreator/alizaarcheology/item/RhoAlloyItem.java",
-          "src/main/resources/assets/aliza_archeology/models/item/rho_alloy.json",
-          "src/main/resources/assets/aliza_archeology/items/rho_alloy.json"
+          "src/main/resources/assets/aliza_archeology/models/item/rho_alloy.json"
         ]
       },
       "path": "~/Collectables"
@@ -522,8 +522,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/alizaarcheology/item/CuproaruroCompositeItem.java",
-          "src/main/resources/assets/aliza_archeology/models/item/cuproaruro_composite.json",
-          "src/main/resources/assets/aliza_archeology/items/cuproaruro_composite.json"
+          "src/main/resources/assets/aliza_archeology/items/cuproaruro_composite.json",
+          "src/main/resources/assets/aliza_archeology/models/item/cuproaruro_composite.json"
         ]
       },
       "path": "~/Collectables"
@@ -564,8 +564,8 @@
       "registry_name": "rho_alloy_rec_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/aliza_archeology/recipe/rho_alloy_rec_1.json",
-          "src/main/resources/data/aliza_archeology/advancement/recipes/rho_alloy_rec_1.json"
+          "src/main/resources/data/aliza_archeology/advancement/recipes/rho_alloy_rec_1.json",
+          "src/main/resources/data/aliza_archeology/recipe/rho_alloy_rec_1.json"
         ]
       },
       "path": "~/NightVisionHelmet"
@@ -578,8 +578,8 @@
       "registry_name": "night_vision_helmet_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/aliza_archeology/advancement/recipes/night_vision_helmet_rec.json",
-          "src/main/resources/data/aliza_archeology/recipe/night_vision_helmet_rec.json"
+          "src/main/resources/data/aliza_archeology/recipe/night_vision_helmet_rec.json",
+          "src/main/resources/data/aliza_archeology/advancement/recipes/night_vision_helmet_rec.json"
         ]
       },
       "path": "~/Collectables/Recipies"
@@ -592,8 +592,8 @@
       "registry_name": "night_vision_emitters_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/aliza_archeology/advancement/recipes/night_vision_emitters_rec.json",
-          "src/main/resources/data/aliza_archeology/recipe/night_vision_emitters_rec.json"
+          "src/main/resources/data/aliza_archeology/recipe/night_vision_emitters_rec.json",
+          "src/main/resources/data/aliza_archeology/advancement/recipes/night_vision_emitters_rec.json"
         ]
       },
       "path": "~/NightVisionHelmet"
@@ -621,8 +621,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/alizaarcheology/item/LuminousRhoFluidItem.java",
-          "src/main/resources/assets/aliza_archeology/items/luminous_rho_fluid.json",
-          "src/main/resources/assets/aliza_archeology/models/item/luminous_rho_fluid.json"
+          "src/main/resources/assets/aliza_archeology/models/item/luminous_rho_fluid.json",
+          "src/main/resources/assets/aliza_archeology/items/luminous_rho_fluid.json"
         ]
       },
       "path": "~/NightVisionHelmet"
@@ -751,9 +751,9 @@
       "registry_name": "suspended_gel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aliza_archeology/models/item/suspended_gel.json",
+          "src/main/resources/assets/aliza_archeology/items/suspended_gel.json",
           "src/main/java/net/mcreator/alizaarcheology/item/SuspendedGelItem.java",
-          "src/main/resources/assets/aliza_archeology/items/suspended_gel.json"
+          "src/main/resources/assets/aliza_archeology/models/item/suspended_gel.json"
         ]
       },
       "path": "~/NightVisionHelmet"
@@ -812,9 +812,9 @@
       "registry_name": "bottled_blaze_powder",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aliza_archeology/items/bottled_blaze_powder.json",
           "src/main/resources/assets/aliza_archeology/models/item/bottled_blaze_powder.json",
-          "src/main/java/net/mcreator/alizaarcheology/item/BottledBlazePowderItem.java",
-          "src/main/resources/assets/aliza_archeology/items/bottled_blaze_powder.json"
+          "src/main/java/net/mcreator/alizaarcheology/item/BottledBlazePowderItem.java"
         ]
       },
       "path": "~/NightVisionHelmet"
@@ -860,8 +860,8 @@
       "registry_name": "inky_mixture",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/alizaarcheology/item/InkyMixtureItem.java",
           "src/main/resources/assets/aliza_archeology/items/inky_mixture.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/InkyMixtureItem.java",
           "src/main/resources/assets/aliza_archeology/models/item/inky_mixture.json"
         ]
       },
@@ -875,9 +875,9 @@
       "registry_name": "thick_mixture",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aliza_archeology/models/item/thick_mixture.json",
           "src/main/resources/assets/aliza_archeology/items/thick_mixture.json",
-          "src/main/java/net/mcreator/alizaarcheology/item/ThickMixtureItem.java"
+          "src/main/java/net/mcreator/alizaarcheology/item/ThickMixtureItem.java",
+          "src/main/resources/assets/aliza_archeology/models/item/thick_mixture.json"
         ]
       },
       "path": "~/NightVisionHelmet"
@@ -1002,9 +1002,9 @@
       "registry_name": "rho_helmet_shell",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/alizaarcheology/item/RhoHelmetShellItem.java",
           "src/main/resources/assets/aliza_archeology/models/item/rho_helmet_shell.json",
-          "src/main/resources/assets/aliza_archeology/items/rho_helmet_shell.json"
+          "src/main/resources/assets/aliza_archeology/items/rho_helmet_shell.json",
+          "src/main/java/net/mcreator/alizaarcheology/item/RhoHelmetShellItem.java"
         ]
       },
       "path": "~/NightVisionHelmet"
@@ -1017,8 +1017,8 @@
       "registry_name": "night_vision_spine_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/aliza_archeology/advancement/recipes/night_vision_spine_rec.json",
-          "src/main/resources/data/aliza_archeology/recipe/night_vision_spine_rec.json"
+          "src/main/resources/data/aliza_archeology/recipe/night_vision_spine_rec.json",
+          "src/main/resources/data/aliza_archeology/advancement/recipes/night_vision_spine_rec.json"
         ]
       },
       "path": "~/NightVisionHelmet"
@@ -1044,8 +1044,8 @@
       "registry_name": "unassembled_rho_helmet_shell",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aliza_archeology/items/unassembled_rho_helmet_shell.json",
           "src/main/resources/assets/aliza_archeology/models/item/unassembled_rho_helmet_shell.json",
+          "src/main/resources/assets/aliza_archeology/items/unassembled_rho_helmet_shell.json",
           "src/main/java/net/mcreator/alizaarcheology/item/UnassembledRhoHelmetShellItem.java"
         ]
       },
@@ -1078,21 +1078,6 @@
           "src/main/java/net/mcreator/alizaarcheology/block/NewSealChestBlock.java",
           "src/main/resources/assets/aliza_archeology/items/new_seal_chest.json",
           "src/main/resources/data/aliza_archeology/loot_table/blocks/new_seal_chest.json"
-        ]
-      },
-      "path": "~/Sealed Chests"
-    },
-    {
-      "name": "SealedChestStates",
-      "type": "blockstates",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sealed_chest_states",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/aliza_archeology/models/block/sealed_chest_states_blockstate_0.json",
-          "src/main/resources/assets/aliza_archeology/models/block/sealed_chest_states_blockstate_1.json",
-          "src/main/resources/assets/aliza_archeology/models/block/sealed_chest_states_blockstate_2.json"
         ]
       },
       "path": "~/Sealed Chests"
@@ -1131,6 +1116,80 @@
         ]
       },
       "path": "~/Sealed Chests"
+    },
+    {
+      "name": "PlainsRuin1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plains_ruin_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/worldgen/structure/plains_ruin_1.json",
+          "src/main/resources/data/aliza_archeology/worldgen/template_pool/plains_ruin_1.json",
+          "src/main/resources/data/aliza_archeology/worldgen/structure_set/plains_ruin_1.json"
+        ]
+      },
+      "path": "~/Structure"
+    },
+    {
+      "name": "PlainsRuin2Loot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plains_ruin_2_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/loot_table/chests/ruins2_chest.json"
+        ]
+      },
+      "path": "~/Structure/LootTables"
+    },
+    {
+      "name": "PlainsRuin2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plains_ruin_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/worldgen/structure_set/plains_ruin_2.json",
+          "src/main/resources/data/aliza_archeology/worldgen/template_pool/plains_ruin_2.json",
+          "src/main/resources/data/aliza_archeology/worldgen/structure/plains_ruin_2.json"
+        ]
+      },
+      "path": "~/Structure"
+    },
+    {
+      "name": "PlainsRuin2Found",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plains_ruin_2_found",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/worldgen/structure_set/plains_ruin_2_found.json",
+          "src/main/resources/data/aliza_archeology/worldgen/structure/plains_ruin_2_found.json",
+          "src/main/resources/data/aliza_archeology/worldgen/template_pool/plains_ruin_2_found.json"
+        ]
+      },
+      "path": "~/Structure"
+    },
+    {
+      "name": "PlainsRuin1Dungeon",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plains_ruin_1_dungeon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aliza_archeology/worldgen/template_pool/plains_ruin_1_dungeon_ruins1.json",
+          "src/main/resources/data/aliza_archeology/worldgen/template_pool/plains_ruin_1_dungeon.json",
+          "src/main/resources/data/aliza_archeology/worldgen/structure/plains_ruin_1_dungeon.json",
+          "src/main/resources/data/aliza_archeology/worldgen/structure_set/plains_ruin_1_dungeon.json"
+        ]
+      },
+      "path": "~/Structure"
     }
   ],
   "variable_elements": [],
@@ -1291,7 +1350,12 @@
     "children": [
       {
         "name": "Structure",
-        "children": []
+        "children": [
+          {
+            "name": "LootTables",
+            "children": []
+          }
+        ]
       },
       {
         "name": "PoopWater",
@@ -1348,5 +1412,5 @@
     "currentGenerator": "neoforge-1.21.8",
     "modElementsPackage": "net.mcreator.alizaarcheology"
   },
-  "mcreatorVersion": 202500344519
+  "mcreatorVersion": 202500345720
 }
