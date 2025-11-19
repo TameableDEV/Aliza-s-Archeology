@@ -40,7 +40,7 @@
         "fallbackPool": "aliza_archeology:plains_ruin_1_dungeon_ruins1",
         "poolParts": [
           {
-            "weight": 2,
+            "weight": 1,
             "structure": "plains_ruin1_bottom",
             "projection": "rigid",
             "ignoredBlocks": []

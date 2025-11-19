@@ -3,7 +3,7 @@
   "fallback": "aliza_archeology:plains_ruin_1_dungeon_ruins1",
   "elements": [
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "aliza_archeology:plains_ruin1_bottom",
