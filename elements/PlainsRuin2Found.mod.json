@@ -23,6 +23,9 @@
       },
       {
         "value": "mutated_plains"
+      },
+      {
+        "value": "meadow"
       }
     ],
     "terrainAdaptation": "beard_thin",
