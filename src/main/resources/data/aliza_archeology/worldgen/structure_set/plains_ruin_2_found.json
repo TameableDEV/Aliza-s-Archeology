@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "aliza_archeology:plains_ruin_2_found",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 35,
+    "separation": 12,
+    "salt": 639539045
+  }
+}

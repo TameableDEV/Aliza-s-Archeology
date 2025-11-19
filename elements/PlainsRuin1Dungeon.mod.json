@@ -1,0 +1,52 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "plains_ruin1_top",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 20,
+    "separation": 5,
+    "restrictionBiomes": [
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "mutated_plains"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "plainsruin1dungeon",
+        "fallbackPool": "aliza_archeology:plains_ruin_1_dungeon_plainsruin1dungeon",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "plains_ruin1_bottom",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}
