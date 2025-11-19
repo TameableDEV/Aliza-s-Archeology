@@ -1,9 +1,0 @@
-{
-  "parent": "aliza_archeology:custom/sealed_chest",
-  "textures": {
-    "all": "aliza_archeology:block/sealed_texture_base",
-    "particle": "aliza_archeology:block/texturebase",
-    "missing": "aliza_archeology:block/texturebase"
-  },
-  "render_type": "solid"
-}

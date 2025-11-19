@@ -1083,21 +1083,6 @@
       "path": "~/Sealed Chests"
     },
     {
-      "name": "SealedChestStates",
-      "type": "blockstates",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sealed_chest_states",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/aliza_archeology/models/block/sealed_chest_states_blockstate_0.json",
-          "src/main/resources/assets/aliza_archeology/models/block/sealed_chest_states_blockstate_1.json",
-          "src/main/resources/assets/aliza_archeology/models/block/sealed_chest_states_blockstate_2.json"
-        ]
-      },
-      "path": "~/Sealed Chests"
-    },
-    {
       "name": "SealedChestSwapTexture",
       "type": "procedure",
       "compiles": true,
