@@ -37,7 +37,7 @@
     "jigsawPools": [
       {
         "poolName": "ruins1",
-        "fallbackPool": "aliza_archeology:plains_ruin_1_dungeon_ruins1",
+        "fallbackPool": "",
         "poolParts": [
           {
             "weight": 1,

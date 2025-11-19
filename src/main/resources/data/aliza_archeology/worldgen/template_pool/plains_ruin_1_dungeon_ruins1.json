@@ -1,6 +1,6 @@
 {
   "name": "aliza_archeology:plains_ruin_1_dungeon_ruins1",
-  "fallback": "aliza_archeology:plains_ruin_1_dungeon_ruins1",
+  "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
