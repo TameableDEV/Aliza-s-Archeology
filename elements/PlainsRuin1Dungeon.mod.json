@@ -36,11 +36,11 @@
     "maxDistanceFromCenter": 64,
     "jigsawPools": [
       {
-        "poolName": "plainsruin1dungeon",
-        "fallbackPool": "aliza_archeology:plains_ruin_1_dungeon_plainsruin1dungeon",
+        "poolName": "ruins1",
+        "fallbackPool": "aliza_archeology:plains_ruin_1_dungeon_ruins1",
         "poolParts": [
           {
-            "weight": 1,
+            "weight": 2,
             "structure": "plains_ruin1_bottom",
             "projection": "rigid",
             "ignoredBlocks": []

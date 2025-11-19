@@ -1198,8 +1198,8 @@
       "registry_name": "plains_ruin_1_dungeon",
       "metadata": {
         "files": [
+          "src/main/resources/data/aliza_archeology/worldgen/template_pool/plains_ruin_1_dungeon_ruins1.json",
           "src/main/resources/data/aliza_archeology/worldgen/template_pool/plains_ruin_1_dungeon.json",
-          "src/main/resources/data/aliza_archeology/worldgen/template_pool/plains_ruin_1_dungeon_plainsruin1dungeon.json",
           "src/main/resources/data/aliza_archeology/worldgen/structure/plains_ruin_1_dungeon.json",
           "src/main/resources/data/aliza_archeology/worldgen/structure_set/plains_ruin_1_dungeon.json"
         ]
